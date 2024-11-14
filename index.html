@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpongeBob SquarePants</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="spongebob-icon.ico" type="image/x-icon">
+    <style>
+       
+           * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background-image: url('Bckg1.webp');
+            background-size: cover; 
+            background-position: center; 
+            background-attachment: fixed; 
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: black;
+            color: #2a2a2a;
+            text-align: center;
+            padding: 50px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            font-family: 'Impact', sans-serif; 
+        }
+
+        header h1 {
+            font-size: 4em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #fff;
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            background-color: #2a2a2a;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 0 30px;
+            padding: 15px 30px;
+            background-color: black;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff9900;
+            transform: scale(1.1);
+        }
+
+        .content {
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px auto;
+            max-width: 1000px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .content img {
+            width: 70%;
+            max-width: 500px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .content img:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            font-size: 2.8em;
+            color: #ff9900;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: left;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .button {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: black;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1em;
+            margin-top: auto;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: black;
+        }
+
+        
+        .characters {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .character {
+            text-align: center;
+            width: 200px;
+            margin: 15px;
+        }
+
+        .character img {
+            width: 100%;
+            max-width: 180px;
+            border-radius: 10px;
+        }
+
+        h5{
+            text-align: center;
+            background-color: #333;
+        }
+
+        .last{
+
+            height: 250px;
+            width: 1823px;
+            background-color: #2a2a2a;
+            padding: 40ppx;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SpongeBob SquarePants</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="character.html">Characters</a>
+        <a href="episode.html">Episodes</a>
+    </nav>
+
+    <div class="content" id="about">
+        <img src="p0.webp" alt="spongebob">
+        <h2>Welcome to the Bikini Bottom </h2>
+        <p>The Krusty Krab is not just any ordinary restaurant—it's the beating heart of Bikini Bottom. This iconic fast-food joint is renowned 
+           for serving the most delicious Krabby Patties in the entire ocean. It’s the go-to spot for both locals and tourists, always buzzing 
+           with activity as customers eagerly line up, hoping to get their hands on one of SpongeBob SquarePants' famous burgers. The restaurant, 
+           whimsically shaped like a giant crab trap, has been the top eatery in town for years, making it a landmark in Bikini Bottom. But the 
+           Krusty Krab’s success isn’t just about the food—it’s about the colorful personalities behind the counter. The restaurant is run by Mr. 
+           Krabs, a money-obsessed crab whose primary motivation in life is, of course, maximizing profit. He is relentless in his quest to make as 
+           much money as possible, even if it means cutting corners or getting into sticky situations. Despite his love of wealth and occasional greed, 
+           Mr. Krabs is undeniably lovable. His passion for his secret recipe—the Krabby Patty—is unmatched, and he guards the recipe with a zealous 
+           obsession, doing anything in his power to keep it safe from prying eyes. His obsession with money often leads to comical moments, such as 
+           trying to save a penny here or there, even at the expense of his employees' comfort. The Krusty Krab’s most enthusiastic employee, however, 
+           is SpongeBob SquarePants, the overly optimistic and always-cheerful fry cook. SpongeBob lives and breathes the Krusty Krab. He’s not just 
+           a worker; he’s a superfan. He takes tremendous pride in his job, flipping Krabby Patties with enthusiasm and energy that’s infectious to 
+           everyone around him. His famous mantra, “I’m ready, I’m ready, I’m ready!” captures the essence of his endless enthusiasm and zest for life. 
+           For SpongeBob, working at the Krusty Krab is a dream come true, and no matter the circumstances, he faces every task with unbridled determination 
+           and positivity. It’s his unwavering optimism that helps keep the Krusty Krab running smoothly—even on the most chaotic of days.</p>
+           <br><a href="https://www.imdb.com/title/tt0206512/" target="_blank" class="button">Explore More</a>
+       </div>
+   </ul>
+       </div>
+    </div>
+<hr>
+<h5>© 2024 by Sam Languido</h5>
+</body>
